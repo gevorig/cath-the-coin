@@ -44,3 +44,28 @@ public class Main {
 		dog.displayInfo();
 	}
 }
+
+/*Полиморфизм*/
+class Animal {
+	void sound() {
+	System.out.println("...звук");
+	}
+}
+class Dog extends Animal {
+	void sound() {
+	System.out.println("собака гавкает");
+	}
+}
+class Cat extends Animal {
+	void sound() {
+	System.out.println("кошка мяукает");
+	}
+}
+public class Main {
+	public static main(String[] args) {
+	Animal myDog = new Dog();
+	Animal myCat = new Cat();
+	myDog.sound();
+	myCat.sound();
+	}
+}
