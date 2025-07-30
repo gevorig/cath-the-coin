@@ -75,4 +75,5 @@ public class GameWindow extends JFrame {
 // автор Gevorg A.
 //.. Hello world!
 //.. Good bye world!
+//.. Hi again!
 //..
