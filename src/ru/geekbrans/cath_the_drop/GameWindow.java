@@ -71,3 +71,5 @@ public class GameWindow extends JFrame {
 	}
 
 }
+// Игра поймай каплю 
+// автор Gevorg A.
